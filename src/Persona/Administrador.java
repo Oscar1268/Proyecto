@@ -1,0 +1,48 @@
+
+package Persona;
+
+
+public class Administrador extends Persona{
+
+    public Administrador(String nombre, String ApePater, String ApeMater, String Codigo) {
+        super(nombre, ApePater, ApeMater, Codigo);
+    }
+
+    public Administrador() {
+    
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApePater() {
+        return ApePater;
+    }
+
+    public void setApePater(String ApePater) {
+        this.ApePater = ApePater;
+    }
+
+    public String getApeMater() {
+        return ApeMater;
+    }
+
+    public void setApeMater(String ApeMater) {
+        this.ApeMater = ApeMater;
+    }
+
+    public String getCodigo() {
+        return Codigo;
+    }
+
+    public void setCodigo(String Codigo) {
+        this.Codigo = Codigo;
+    }
+    
+    
+}
